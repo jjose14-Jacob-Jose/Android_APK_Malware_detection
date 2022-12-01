@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.bing.eggking">
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:logo="@drawable/icon" android:name="com.bangcle.protect.ApplicationWrapper">
+        <meta-data android:name="android.app.lib_name" android:value="eggking"/>
+        <activity android:configChanges="orientation" android:label="@string/app_name" android:name="AppActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="UMENG_APPKEY" android:value="53e1e867fd98c5ab2300ac4f"/>
+        <activity android:configChanges="keyboard|orientation" android:launchMode="singleTask" android:name="com.umeng.socialize.view.ShareActivity" android:noHistory="true" android:theme="@style/Theme.UMDialog" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="org.cocos2dx.cpp.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|orientation" android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="\ 1102005400"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.adsmogo.adview.AdsMogoInterstitialActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.adsmogo.adview.AdsMogoWebView"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/app_name" android:name="com.mobisage.android.MobiSageActivity"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:name="com.mobisage.android.MobiSageAdPosterActivity" android:theme="@android:style/Theme.Translucent"/>
+        <service android:enabled="true" android:name="com.mobisage.android.MobiSageApkService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="4452000"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity"/>
+        <activity android:name="org.cocos2dx.cpp.SplashActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="BANGCLE_SDK_VERSION" android:value="\ 2"/>
+        <meta-data android:name="BANGCLE_APP_KEY" android:value="test_83323"/>
+        <receiver android:exported="false" android:name="neo.proxy.DistributeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="com.secneo.plugin.action.HOURLY"/>
+                <action android:name="com.secneo.plugin.action.DAILY"/>
+                <action android:name="com.secneo.plugin.action.APP_STARTED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.secneo.proxy.action.CUSTOM"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="neo.proxy.FastService"/>
+    </application>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+</manifest>
